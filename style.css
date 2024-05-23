@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.control {
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding-right: 0.25rem;
+    border-right: 2px solid lightgray;
+}
+
+.control:last-child {
+    padding-right: 0;
+    border-right: none;
+}
